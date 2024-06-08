@@ -5,12 +5,13 @@ public class contaTerminal {
     public static void main(String[] args) {
         
        //TODO: Conhecer e importar a classe Scanner 
+       //Obter pela Scanner os valores digitados pelo terminal
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
-         //Exibir as mensagens para o Usuario 
+        //Exibir as mensagens para o Usuario 
         System.out.println("Digite seu número");
-        int numero = scanner.nextInt();  //Obter pela Scanner os valores digitados pelo terminal 
+        int numero = scanner.nextInt();   
         
         System.out.println("Digite o numero da agencia");
         String agencia = scanner.next();
